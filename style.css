@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #87ceeb; /* Sky blue background */
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  #game-container {
+    position: relative;
+    width: 800px; /* Viewport width */
+    height: 400px; /* Viewport height */
+    margin: 50px auto;
+    background: #4caf50; /* Grass background */
+    border: 2px solid #333;
+    overflow: hidden;
+  }
+  
+  #game-world {
+    position: absolute;
+    width: 1600px; /* World width (twice as wide as the container) */
+    height: 100%;
+    background: #4caf50; /* Same grass background */
+  }
+  
+  #player {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #ff5722; /* Player's color */
+    border-radius: 5px;
+    left: 50px;
+    top: 260px;
+  }
+  
+  .platform {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background: #654321; /* Brown platforms */
+    border-radius: 5px;
+  }
+  
